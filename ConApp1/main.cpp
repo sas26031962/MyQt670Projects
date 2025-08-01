@@ -5,8 +5,9 @@
 int main(int argc, char *argv[])
 {
 
-    std::string Name = "world";
-    std::string s = std::format("Hello, {}!", Name); // "Hello, world!"
+    std::string sName = "world";
+    std::string sFormat = "Hello, {}!";
+    std::string s = std::format("Hello, {}!", sName); // "Hello, world!"
 
     std::cout << s;
 

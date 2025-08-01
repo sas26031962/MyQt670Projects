@@ -8,7 +8,7 @@ namespace fs = std::filesystem; // Упрощаем запись
 
 int main(int argc, char *argv[])
 {
-    fs::path file_path = "ConApp0.ilk";//"test.txt";
+    fs::path file_path = "ConApp0.ilk";
 
     if (fs::exists(file_path)) {
         std::cout << "File " <<file_path << " exist!\n";
